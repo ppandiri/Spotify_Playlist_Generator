@@ -1,13 +1,115 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Libre Franklin";
+  color: #f2f2f2;
+  background-color: #191414;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #333;
+}
+.navbar img{
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+}
+.navbar .links {
+  margin-left: auto;
+  background-color: #333;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  background-color: #333;
+}
+.navbar a:hover {
+  color: #1DB954;
+}
+.row {
+display: flex;
+align-items: center;
+margin: 0 auto;
+max-width: 1400px;
+}
+.desc{
+z-index: 10000;
+position: relative;
+padding: 50px;
+}
+.whatwedo{
+  color: #1DB954;
+  font-size: 40px;
+  font-weight: 700;
+}
+.elements {
+  padding: 10px 16px;
+  margin: 20px 5px;
+  border-bottom: 1px solid #fafafa;
+}
+.elements div:hover {
+  box-shadow: 2px 5px 10px #1DB954;
+}
+.elements h3 {
+  font-size: 20px;
+  color: #1DB954;
+  margin-bottom: 0px;
+}
+.elements div {
+  margin: 20px 0;
+  margin-top: 0px;
+}
+.Euclidean {
+  width: 500px;
+  height: 500px;
+  padding: 40px;
+}
+.content2 {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.content2 button{
+  background: #1DB954;
+  color: #fafafa;
+  border: 0;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+}
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create h2{
+  padding-top: 50px;
+}
+.create input {
+  width: 100%;
+  padding: 20px 10px;
+  margin: 50px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #1DB954;
+  color: #fafafa;
+  border: 0;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
